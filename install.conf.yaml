@@ -6,11 +6,8 @@
 - clean: ['~']
 
 - link:
-    ~/.asdf:
-    ~/.vim:
     ~/.oh-my-zsh:
     ~/.zshrc:
-    ~/bin: bin
 
 - create:
   - ~/repos

@@ -14,5 +14,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [git update-submodules, Update submodules]
 

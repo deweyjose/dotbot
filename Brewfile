@@ -9,4 +9,5 @@ brew "asdf"
 brew "neovim"
 brew "vim"
 brew "jq"
+brew "ripgrep"
 

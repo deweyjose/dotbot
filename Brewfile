@@ -11,3 +11,6 @@ brew "vim"
 brew "jq"
 brew "ripgrep"
 
+# Applications
+cask "google-chrome"
+cask "docker"

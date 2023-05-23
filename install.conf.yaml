@@ -10,6 +10,8 @@
     ~/.config/nvim/init.vim: vimrc
     ~/.zshrc:
     ~/.vimrc:
+    ~/.zprofile:
+    ~/.shell:
 
 - create:
   - ~/repos

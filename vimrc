@@ -53,8 +53,6 @@ call plug#end()
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-
-
 """""""""""""""""""""""""""""""""
 " VIM SETTINGS
 """""""""""""""""""""""""""""""""
@@ -261,4 +259,10 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+"""""""""""""""""""""""""""""""""
+" File Treatment
+"""""""""""""""""""""""""""""""""
+" Treat .json files as .js
+autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 

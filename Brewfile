@@ -10,6 +10,7 @@ brew "neovim"
 brew "vim"
 brew "jq"
 brew "ripgrep"
+brew "maven"
 
 # Applications
 cask "google-chrome"

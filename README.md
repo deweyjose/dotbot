@@ -15,6 +15,7 @@
   asdf plugin-add nodejs git@github.com:asdf-vm/asdf-nodejs.git
   asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
   asdf plugin-add java https://github.com/halcyon/asdf-java.git
+  asdf plugin-add maven https://github.com/halcyon/asdf-java.git
   asdf plugin-add python https://github.com/asdf-community/asdf-python.git
   asdf plugin-add rust https://github.com/asdf-community/asdf-rust.git
 ```

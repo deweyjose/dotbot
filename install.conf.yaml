@@ -13,6 +13,7 @@
     ~/.vimrc:
     ~/.zprofile:
     ~/.shell:
+    ~/.tool-versions:
 
 - create:
   - ~/repos

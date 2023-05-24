@@ -14,12 +14,12 @@
     ~/.zprofile:
     ~/.shell:
     ~/.tool-versions:
-
+      
 - create:
   - ~/repos
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [sh apps.sh, Install apps]
+    #  - [sh apps.sh, Install apps]
 
 

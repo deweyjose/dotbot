@@ -11,13 +11,13 @@
         "revision": "ab014794c2dc14b1179de68f960479d898c5bc22"
       },
       "homebrew/cask": {
-        "revision": "d780c40bcffeff23ae15080ad2ed938f98bb889f"
+        "revision": "3f23ee928e7303fa730fdfb1341dc0ffa6d4a648"
       },
       "homebrew/core": {
-        "revision": "599c95e6f1b64c7eb7323af28aa068318d0a4945"
+        "revision": "d23a63383a30630df49fc7b34a2b05bbfa951065"
       },
       "thoughtbot/formulae": {
-        "revision": "a6bb452f4c03204fc49556c81e64172700a6d6d1"
+        "revision": "233415f7abd004b73702e4ecccf916e480b38ec7"
       }
     },
     "brew": {
@@ -305,6 +305,14 @@
         "CLT": "12.0.0.32.29",
         "Xcode": "13.2.1",
         "macOS": "11.7.3"
+      },
+      "ventura": {
+        "HOMEBREW_VERSION": "4.0.19",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "14.3.0.0.1.1679647830",
+        "Xcode": "14.3",
+        "macOS": "13.4"
       }
     }
   }

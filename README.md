@@ -32,7 +32,6 @@ asdf install nodejs 18.2.0
  :CocInstall coc-json
  :CocInstall coc-markdownlint
  :CocInstall coc-eslint
- :CocInstall coc-rust-analyzer 
 ```
 
 ```sh

@@ -35,6 +35,11 @@ return require('packer').startup(function(use)
   -- git integration
   use { 'tpope/vim-fugitive' }
   -- COC
-  use {'neoclide/coc.nvim', branch = 'release'}
-  
+  use { 'neoclide/coc.nvim', branch = 'release'}
+  -- Prettier
+  use {
+      'prettier/vim-prettier',
+      run = 'yarn install',
+      ft = {'javascript', 'typescript', 'css', 'less', 'scss', 'graphql', 'markdown', 'vue', 'html'}
+  }
 end)

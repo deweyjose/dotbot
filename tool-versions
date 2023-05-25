@@ -1,2 +1,4 @@
 nodejs 18.2.0
-java temurin-11.0.19+7
+java temurin-18.0.2+9
+rust 1.69.0
+ruby 3.2.2

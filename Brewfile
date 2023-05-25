@@ -13,5 +13,6 @@ brew "ripgrep"
 brew "maven"
 
 # Applications
-cask "google-chrome"
+#cask "google-chrome"
 cask "docker"
+cask "iterm2"

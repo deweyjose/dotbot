@@ -15,10 +15,16 @@ brew upgrade
 
 brew bundle
 
-if [ ! -f "$HOME/.vim/autoload/plug.vim" ]; then
-  echo "Installing Plugged..."
-  curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+brew update
+
+if [ ! -d "$HOME/.local/share/nvim/site/pack/packer/start/packer.nvim" ]; then
+  echo "Installing Packer..."
+  git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 fi;
 
-brew cleanup
+if [ ! -d "$HOME/.cargo" ]; then
+  echo "Installing Rust..."
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+fi;
+
+

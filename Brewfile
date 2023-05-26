@@ -10,8 +10,10 @@ brew "neovim"
 brew "vim"
 brew "jq"
 brew "ripgrep"
+brew "libpq"
 
 # Applications
 #cask "google-chrome"
 cask "docker"
 cask "iterm2"
+

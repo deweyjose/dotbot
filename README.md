@@ -10,8 +10,8 @@
 - [ ] `sh apps.sh`
 - [ ] `sh macos.sh`
 - [ ] Install VIM plugins via `:PackerInstall`
+- [ ] Iterm/Settings/Profiles/Text/Font/Hack Nerd Font
 - [ ] Install `asdf` plugins
-
 ```sh
   asdf plugin-add nodejs git@github.com:asdf-vm/asdf-nodejs.git
   asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git

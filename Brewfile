@@ -11,9 +11,12 @@ brew "vim"
 brew "jq"
 brew "ripgrep"
 brew "libpq"
+brew "postgresql"
+brew "heroku"
 
 # Applications
 #cask "google-chrome"
 cask "docker"
 cask "iterm2"
+cask "font-hack-nerd-font"
 

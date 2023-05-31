@@ -13,6 +13,7 @@ brew "ripgrep"
 brew "libpq"
 brew "postgresql"
 brew "heroku"
+brew "yarn", args: ["ignore-dependencies"]
 
 # Applications
 #cask "google-chrome"

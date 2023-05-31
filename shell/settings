@@ -1,0 +1,3 @@
+if [ -f ~/.shell/settings.local ]; then
+    source ~/.shell/settings.local
+fi

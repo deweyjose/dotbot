@@ -56,5 +56,6 @@ return require('packer').startup(function(use)
               require("nvim-tree").setup {}
       end
   }
-  
+
+  use 'vim-ruby/vim-ruby'
 end)

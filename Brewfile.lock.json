@@ -454,6 +454,12 @@
         "options": {
           "full_name": "font-hack-nerd-font"
         }
+      },
+      "pgadmin4": {
+        "version": "7.1",
+        "options": {
+          "full_name": "pgadmin4"
+        }
       }
     }
   },

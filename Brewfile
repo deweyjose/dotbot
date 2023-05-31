@@ -20,4 +20,4 @@ brew "yarn", args: ["ignore-dependencies"]
 cask "docker"
 cask "iterm2"
 cask "font-hack-nerd-font"
-
+cask "pgadmin4"

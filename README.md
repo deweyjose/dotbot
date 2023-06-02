@@ -15,14 +15,23 @@
 ```sh
   asdf plugin-add nodejs git@github.com:asdf-vm/asdf-nodejs.git
   asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+  asdf plugin add python https://github.com/danhper/asdf-python.git
 ```
 
 - [ ] Install languages
 
 ```sh
 asdf install ruby 3.2.2
-asdf install nodejs 18.2.0
+asdf install nodejs 18.2.0 14.21.3
+asdf install python 3.8.12
 ```
+
+```sh
+gem install solargraph 
+pip install jupyterlab
+pip install ipywidgets
+```
+
 
 - [ ] Install Coc plugins
 
@@ -34,10 +43,7 @@ asdf install nodejs 18.2.0
  :CocInstall coc-eslint
 ```
 
-```sh
-gem install solargraph 
-```
-
 ```vim
 :CocInstall coc-solargraph
 ```
+

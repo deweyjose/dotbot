@@ -1,0 +1,3 @@
+if [ -f ~/.shell/path.local ]; then
+    source ~/.shell/path.local
+f

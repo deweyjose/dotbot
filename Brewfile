@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "thoughtbot/formulae"
+tap "homebrew/cask-fonts"
 
 brew "asdf"
 brew "neovim"

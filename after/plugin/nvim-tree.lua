@@ -9,7 +9,7 @@ require("nvim-tree").setup({
   update_focused_file  = { enable = true },
   sort_by = "case_sensitive",
   view = {
-    width = 30,
+    width = 50,
   },
   renderer = {
     group_empty = true,

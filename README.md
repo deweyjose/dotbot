@@ -41,6 +41,7 @@ pip install ipywidgets
  :CocInstall coc-json
  :CocInstall coc-markdownlint
  :CocInstall coc-eslint
+ :CocInstall coc-pyright
 ```
 
 ```vim

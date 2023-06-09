@@ -58,4 +58,7 @@ return require('packer').startup(function(use)
   }
 
   use 'vim-ruby/vim-ruby'
+
+  use 'tpope/vim-unimpaired'
+
 end)

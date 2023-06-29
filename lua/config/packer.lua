@@ -15,10 +15,10 @@ return require('packer').startup(function(use)
   }
 
   -- theme
-  use { 
-	  'rose-pine/neovim', 
-	  as = 'rose-pine'
-  }
+  --use { 
+  --	  'rose-pine/neovim', 
+  -- 	  as = 'rose-pine'
+  -- }
 
   -- highlighting 
   use {
@@ -61,6 +61,11 @@ return require('packer').startup(function(use)
 
   use 'tpope/vim-unimpaired'
 
-  use { 'psf/black', branch = 'stable'}
+  use 'vim-airline/vim-airline'
+  use 'vim-airline/vim-airline-themes'
+
+  use 'morhetz/gruvbox'
+
+  use 'github/copilot.vim'
 
 end)

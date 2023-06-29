@@ -29,9 +29,15 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 
--- Set the statusline to display the current file
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
 vim.cmd([[
-  set statusline=%<%f%h%m%r%=%-14.(%l,%c%V%)\ %P
-  set laststatus=2
+let g:airline_theme = 'gruvbox'
 ]])
 
+--vim.cmd[[
+--augroup black_on_save
+--  autocmd!
+--  autocmd BufWritePre *.py :Black
+--augroup end
+--]]

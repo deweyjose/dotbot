@@ -30,6 +30,7 @@ asdf install python 3.8.12
 gem install solargraph 
 pip install jupyterlab
 pip install ipywidgets
+pip install pynvim
 ```
 
 

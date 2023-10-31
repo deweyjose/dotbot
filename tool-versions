@@ -1,5 +1,5 @@
-nodejs 18.2.0
-java temurin-18.0.2+9
+nodejs 18.17.0
+java temurin-17.0.8+7
 rust 1.69.0
 ruby 3.2.2
-python 3.11.4
+python 3.9.12

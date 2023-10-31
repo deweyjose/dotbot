@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git asdf docker)
+plugins=(git asdf docker gcloud kubectl)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -100,3 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zprofile
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/rj757l/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/rj757l/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/rj757l/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/rj757l/google-cloud-sdk/completion.zsh.inc'; fi
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault

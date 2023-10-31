@@ -10,6 +10,7 @@
     ~/.config/nvim/init.lua: init.lua
     ~/.config/nvim/lua: lua
     ~/.oh-my-zsh:
+    ~/.asdfrc:
     ~/.zshrc:
     ~/.zprofile:
     ~/.shell:

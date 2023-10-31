@@ -35,9 +35,13 @@ vim.cmd([[
 let g:airline_theme = 'gruvbox'
 ]])
 
+vim.api.nvim_set_option('clipboard', 'unnamedplus')
+
 --vim.cmd[[
 --augroup black_on_save
 --  autocmd!
 --  autocmd BufWritePre *.py :Black
 --augroup end
 --]]
+--
+--

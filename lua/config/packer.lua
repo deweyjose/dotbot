@@ -9,8 +9,7 @@ return require('packer').startup(function(use)
   
   -- Fuzzy finder goodness
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
-	  -- or                            , branch = '0.1.x',
+	  'nvim-telescope/telescope.nvim', tag = '0.1.6',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
@@ -57,7 +56,7 @@ return require('packer').startup(function(use)
       end
   }
 
-  use 'vim-ruby/vim-ruby'
+  --use 'vim-ruby/vim-ruby'
 
   use 'tpope/vim-unimpaired'
 
@@ -66,6 +65,6 @@ return require('packer').startup(function(use)
 
   use 'morhetz/gruvbox'
 
-  use 'github/copilot.vim'
+  --use 'github/copilot.vim'
 
 end)
